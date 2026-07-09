@@ -120,19 +120,19 @@ const projectData = {
     githubUrl: "https://github.com/alexdesigner/gradient-dashboard"
   },
   project3: {
-    title: "Portfolio Website",
-    description: "A creative portfolio website showcasing interactive 3D elements and smooth animations. Built with modern web technologies to create an engaging user experience that stands out from the crowd.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "Three.js", "GSAP"],
-    features: [
-      "Interactive 3D elements",
-      "Smooth scroll animations",
-      "Responsive design",
-      "Performance optimized",
-      "SEO friendly"
-    ],
-    liveUrl: "https://alexdesigner-portfolio.com",
-    githubUrl: "https://github.com/samtiwari22/cinematch-repo"
-  }
+  title: "CineMatch",
+  description: "A content-based movie recommendation web app trained on the TMDB 5000 dataset. It analyzes each movie's overview, genres, keywords, cast, and director to compute similarity scores and suggest films you'll actually enjoy — no user history required.",
+  technologies: ["Python", "Pandas", "scikit-learn", "NLTK", "Streamlit", "TMDB API"],
+  features: [
+    "Bag-of-Words + cosine similarity recommendation engine",
+    "Live movie posters via TMDB API",
+    "Genre and rating filters",
+    "\"Surprise Me\" random discovery button",
+    "Browse tab sorted by popularity, rating, or release year"
+  ],
+  liveUrl: "https://cinematch-repo-pw99sej88wqsdpbqezssug.streamlit.app/",
+  githubUrl: "https://github.com/samtiwari22/cinematch-repo"
+}
 };
 
 function openProjectModal(projectId) {
