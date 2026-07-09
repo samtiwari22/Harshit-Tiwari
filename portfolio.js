@@ -131,7 +131,7 @@ const projectData = {
       "SEO friendly"
     ],
     liveUrl: "https://alexdesigner-portfolio.com",
-    githubUrl: https://github.com/samtiwari22/cinematch-repo
+    githubUrl: "https://github.com/samtiwari22/cinematch-repo"
   }
 };
 
