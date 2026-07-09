@@ -106,19 +106,19 @@ const projectData = {
     githubUrl: "https://github.com/alexdesigner/dreamy-app"
   },
   project2: {
-    title: "Gradient Dashboard",
-    description: "A modern analytics dashboard built with React and D3.js, featuring smooth animations and real-time data visualization. Perfect for businesses looking to track their KPIs with style and efficiency.",
-    technologies: ["React", "D3.js", "TypeScript", "Tailwind CSS", "Express.js"],
-    features: [
-      "Real-time data visualization",
-      "Customizable widget layouts",
-      "Advanced filtering and sorting",
-      "Export functionality",
-      "Mobile-responsive design"
-    ],
-    liveUrl: "https://gradient-dashboard-demo.com",
-    githubUrl: "https://github.com/alexdesigner/gradient-dashboard"
-  },
+  title: "Insurance Charge Predictor",
+  description: "A regression-based web app that predicts an individual's medical insurance charges using personal and health-related inputs such as age, BMI, smoking status, and region. Built to help users understand how different factors influence insurance costs.",
+  technologies: ["Python", "Pandas", "scikit-learn", "Streamlit", "NumPy"],
+  features: [
+    "Real-time insurance cost prediction",
+    "Interactive input form for age, BMI, smoker status, region, etc.",
+    "Regression model trained on real insurance data",
+    "Instant results with a clean, simple interface",
+    "Deployed and accessible from any device"
+  ],
+  liveUrl: "https://insurance-charge-prediction-iflegqwgedcz2gjar9unnc.streamlit.app/",
+  githubUrl: "https://github.com/samtiwari22/insurance-charge-prediction"
+},
   project3: {
   title: "CineMatch",
   description: "A content-based movie recommendation web app trained on the TMDB 5000 dataset. It analyzes each movie's overview, genres, keywords, cast, and director to compute similarity scores and suggest films you'll actually enjoy — no user history required.",
