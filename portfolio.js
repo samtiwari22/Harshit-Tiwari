@@ -248,7 +248,12 @@ function animateStatCounters() {
       return;
     }
 
-    const target = parseInt(stat.getAttribute('data-target'));
+    const target = parseInt(stat.getAttribute('data-target'), 10);
+    if (isNaN(target)) {
+      stat.textContent = stat.getAttribute('data-target') || '';
+      return;
+    }
+
     const duration = 2000;
     const increment = target / (duration / 16);
     let current = 0;
@@ -263,7 +268,6 @@ function animateStatCounters() {
     }, 16);
   });
 }
-
 // File upload functionality
 function initFileUpload() {
   const fileUpload = document.getElementById('fileUpload');
