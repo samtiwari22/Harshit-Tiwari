@@ -242,6 +242,12 @@ function animateStatCounters() {
   const statNumbers = document.querySelectorAll('.stat-number');
   
   statNumbers.forEach(stat => {
+    const textOverride = stat.getAttribute('data-text');
+    if (textOverride) {
+      stat.textContent = textOverride;
+      return;
+    }
+
     const target = parseInt(stat.getAttribute('data-target'));
     const duration = 2000;
     const increment = target / (duration / 16);
@@ -253,7 +259,7 @@ function animateStatCounters() {
         current = target;
         clearInterval(timer);
       }
-      stat.textContent = Math.floor(current);
+      stat.textContent = Math.floor(current) + '+';
     }, 16);
   });
 }
