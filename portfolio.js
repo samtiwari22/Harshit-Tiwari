@@ -92,19 +92,18 @@ function scrollToSection(sectionId) {
 // Project modal functionality
 const projectData = {
   project1: {
-    title: "Dreamy Mobile App",
-    description: "A comprehensive sleep tracking application designed to help users improve their sleep quality through beautiful 3D animations and intuitive user interface. The app features personalized sleep insights, relaxing soundscapes, and smart alarm functionality.",
-    technologies: ["React Native", "Three.js", "Node.js", "MongoDB", "Firebase"],
-    features: [
-      "3D animated sleep visualizations",
-      "Smart sleep cycle tracking",
-      "Personalized sleep recommendations",
-      "Relaxing soundscapes and white noise",
-      "Social sleep challenges"
-    ],
-    liveUrl: "https://dreamy-app-demo.com",
-    githubUrl: "https://github.com/alexdesigner/dreamy-app"
-  },
+  title: "LeetMatrix",
+  description: "A LeetCode stats dashboard — enter any username and instantly see solved problem counts broken down by Easy, Medium, and Hard difficulty, along with streaks and overall ranking, without needing to visit LeetCode directly.",
+  technologies: ["Python", "[YOUR_FRAMEWORK]", "LeetCode API"],
+  features: [
+    "Solved problem counts by Easy / Medium / Hard difficulty",
+    "Current streak and ranking display",
+    "Instant lookup by username, no login required",
+    "Clean, at-a-glance stats dashboard"
+  ],
+  liveUrl: "https://samtiwari22.github.io/leetmatrix/",
+  githubUrl: "https://github.com/samtiwari22/leetmatrix"
+},
   project2: {
   title: "Insurance Charge Predictor",
   description: "A regression-based web app that predicts an individual's medical insurance charges using personal and health-related inputs such as age, BMI, smoking status, and region. Built to help users understand how different factors influence insurance costs.",
